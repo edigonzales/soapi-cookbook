@@ -1,0 +1,31 @@
+= SO!API-Cookbook
+:encoding: utf-8
+:toc: left
+:toc-title: Inhaltsverzeichnis 
+:author_name: Amt für Geoinformation Kanton Solothurn
+:author_email: agi@bd.so.ch
+:author: {author_name}
+:email: {author_email}
+:title-page:
+:sectnums:
+:chapter-label:
+:sectlinks:
+:sectanchors:
+:revdate: {docdate}
+:figure-caption: Abbildung
+
+include::src/docs/asciidoc/chapter/vorwort.adoc[]
+
+//include::src/docs/asciidoc/chapter/organisation.adoc[]
+
+//include::src/docs/asciidoc/chapter/systemuebersicht.adoc[]
+
+//include::src/docs/asciidoc/chapter/betrieb.adoc[]
+
+//include::src/docs/asciidoc/chapter/integrationsprozesse.adoc[]
+
+//include::src/docs/asciidoc/chapter/changemanagement.adoc[]
+
+
+
+

@@ -1,0 +1,10 @@
+[preface]
+== Vorwort
+
+Das SO!API-Cookbook zeigt mittels einfacher Beispiele die Anwendungsmöglichkeiten der verschiedenen Webdienste der GDI des Kantons Solothurn. Es soll internen wie auch externen Entwicklern helfen Fragestellungen im Bereich der Geoinformation/-informatik zu lösen.
+
+Einige der Dienste haben einen klaren öffentlichen Charakter (z.B. WMS) und können von jedermann genutzt werden. Andere wiederum haben eher einen internen Charakter (z.B. **BEISPIEL**). Diese können zwar auch problemlos verwendet werden, die Stabilität der API selber ist jedoch nicht zwingend garantiert. Eine Rücksprache mit dem Amt für Geonformation ist vorteilhaft.
+
+
+
+

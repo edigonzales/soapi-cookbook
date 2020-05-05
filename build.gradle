@@ -1,0 +1,43 @@
+plugins {
+    id 'org.asciidoctor.jvm.convert' version '3.1.0'
+    id 'org.asciidoctor.jvm.pdf' version '3.1.0'
+}
+
+apply from: "$rootDir/gradle/versioning.gradle"
+
+repositories {
+    jcenter()
+    maven { url 'http://rubygems-proxy.torquebox.org/releases' }
+    mavenCentral()
+}
+
+asciidoctor {
+    sourceDir  file('src/docs/asciidoc')
+    outputDir  file('build/docs')
+}
+
+asciidoctorj {  // or asciidoctor.asciidoctorj
+    attributes \
+        revnumber : project.version,
+        imagesdir : "images"
+   options doctype: 'book', ruby: 'erubis'
+}
+
+/*
+pdfThemes {
+    github 'sogis-basic', { 
+        organisation = 'sogis' 
+        repository = 'sogis-docs-asciidoctor-themes' 
+        relativePath = 'sogis-basic' 
+        branch = 'master' 
+    }
+}
+*/
+
+asciidoctorPdf {
+    attributes \
+        imagesdir : "src/docs/asciidoc/images"
+    //theme 'sogis-basic'
+    // not posssible with github theme
+    //fontsDir file('src/docs/asciidoc/theme')
+}

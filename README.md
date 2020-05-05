@@ -5,3 +5,4 @@
 - [ ] WMS-Filtering etc.
 - [ ] Naming-Logik
 
+- [ ] WFS Auth?
