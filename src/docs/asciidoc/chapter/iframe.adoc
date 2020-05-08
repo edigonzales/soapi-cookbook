@@ -29,6 +29,7 @@ Die Karten(-ebenen) werden mit dem `<iframe>` HTML Element ("inline frame") in e
 
 === Parameter
 
+- Die Basis-URL lautet: `https://grundstuecksinformation.ch/embed/embed.html`
 - `bgLayer`: Wählt die Hintergrundkarte aus. Es stehen die gleichen Hintergrundkarten wie im Web GIS Client zur Verfügung. Die Namen entsprechen den https://geo.so.ch/api/wmts/1.0.0/WMTSCapabilities.xml[WMTS-Layernamen].
 - `layers`: Kommaseparierte Liste für die anzuzeigenden Kartenebenen. Die Namen entsprechen den https://geo.so.ch/api/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0[WMS-Layername]. Der WMS-Layername entspricht dem Identifier wie er auch in der URL des Web GIS Clients für die jeweilige Kartenebene sichtbar ist.
 - `layers_opacity`: Kommaseparierte Liste mit der Opazität des jeweiligen Layers von `layers`. Der Wertebereich geht von 0 (komplett durchsichtig resp. unsichtbar) bis 1 (keine Transparenz).
