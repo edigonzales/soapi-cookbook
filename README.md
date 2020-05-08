@@ -7,5 +7,7 @@
 
 - [ ] WFS Auth?
 
-
+```
 curl -v --user foo:bar -X GET "https://geo.so.ch/api-auth/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0"
+```
+
