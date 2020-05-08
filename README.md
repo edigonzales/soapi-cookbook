@@ -7,6 +7,9 @@
 
 - [ ] WFS Auth?
 
+- Dokumente? Eher im Sinne, dass in der GetFeatureInfo der Name des Reports drin steht.
+
+
 ```
 curl -v --user foo:bar -X GET "https://geo.so.ch/api-auth/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0"
 ```

@@ -7,9 +7,10 @@ Die Karten(-ebenen) werden mit dem `<iframe>` HTML Element ("inline frame") in e
 
 **Orthofoto als Hintergrundkarte und Grundstücke und Fixpunkte als Kartenebene:**
 
-```
+[source,html]
+----
 <iframe src='https://grundstuecksinformation.ch/embed/embed.html?bgLayer=ch.so.agi.hintergrundkarte_ortho&layers=ch.so.agi.av.grundstuecke,ch.so.agi.av.fixpunkte&layers_opacity=1,1&E=2607457.049140623&N=1228667.6838281231&zoom=14' width='600' height='450' style='border:0px solid white;'></iframe>
-```
+----
 
 +++
 <iframe src='https://grundstuecksinformation.ch/embed/embed.html?bgLayer=ch.so.agi.hintergrundkarte_ortho&layers=ch.so.agi.av.grundstuecke,ch.so.agi.av.fixpunkte&layers_opacity=1,1&E=2607457.049140623&N=1228667.6838281231&zoom=14' width='600' height='450' style='border:0px solid white;'></iframe>
@@ -17,9 +18,10 @@ Die Karten(-ebenen) werden mit dem `<iframe>` HTML Element ("inline frame") in e
 
 **Hintergrundkarte schwarz-weiss und verschiedene Kartenebenen inkl. Prüfperimeter für Erdwärmesonden:**
 
-```
+[source,html]
+----
 <iframe src='https://grundstuecksinformation.ch/embed/embed.html?bgLayer=ch.so.agi.hintergrundkarte_sw&layers=ch.so.afu.erdwaermesonden.abfrageperimeter,ch.so.afu.gewaesserschutz.zonen_areale,ch.so.afu.altlasten.standorte&layers_opacity=0.35,0.5,0.6&E=2607577.014463918&N=1227885.4209060299&zoom=11' width='600' height='450' style='border:0px solid white;'></iframe>
-```
+----
 
 +++
 <iframe src='https://grundstuecksinformation.ch/embed/embed.html?bgLayer=ch.so.agi.hintergrundkarte_sw&layers=ch.so.afu.erdwaermesonden.abfrageperimeter,ch.so.afu.gewaesserschutz.zonen_areale,ch.so.afu.altlasten.standorte&layers_opacity=0.35,0.5,0.6&E=2607577.014463918&N=1227885.4209060299&zoom=11' width='600' height='450' style='border:0px solid white;'></iframe>

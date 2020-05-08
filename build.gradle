@@ -14,6 +14,7 @@ repositories {
 asciidoctor {
     sourceDir  file('src/docs/asciidoc')
     outputDir  file('build/docs')
+    attributes 'source-highlighter': 'coderay'   
 }
 
 asciidoctorj {  // or asciidoctor.asciidoctorj
