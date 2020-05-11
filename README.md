@@ -6,8 +6,10 @@
 - [ ] Naming-Logik
 
 - [ ] WFS Auth?
+- [ ] zwei GetFeatureInfo.
 
 - Dokumente? Eher im Sinne, dass in der GetFeatureInfo der Name des Reports drin steht.
+
 
 
 ```
