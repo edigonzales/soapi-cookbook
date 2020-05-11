@@ -8,7 +8,7 @@
 - [ ] WFS Auth?
 - [ ] zwei GetFeatureInfo.
 
-- Dokumente? Eher im Sinne, dass in der GetFeatureInfo der Name des Reports drin steht.
+- Dokumente? Eher im Sinne, dass in der GetFeatureInfo der Name des Reports drin steht. Und Signatur. Man muss im Prinzip immer alles mitschicken, da man nicht weiss, welche Parameter der Report braucht (id, x/y).
 
 
 
