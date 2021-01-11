@@ -1,0 +1,27 @@
+name: soapi-cookbook
+
+on: [push]
+
+jobs:
+  build-and-deploy:
+    env:
+      DOCKER_ACCOUNT: sogis
+      DOCKER_REPO: standortkarte
+      DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
+      DOCKER_USERNAME: ${{secrets.DOCKER_USERNAME}} 
+      BUILD_NUMBER: ${{ github.run_number }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print new build number
+        run: echo "Build number is $BUILD_NUMBER"
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+      - name: Build documentation
+        run: ./gradlew clean asciidoctor
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages 
+          FOLDER: build/docs/ 
+          CLEAN: true 
